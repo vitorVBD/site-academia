@@ -1,0 +1,75 @@
+header {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+nav {
+    display: block;
+    width: 205;
+    float: left;
+    padding: 5px;
+}
+
+section {
+    display: block;
+    width: 70%;
+    float: right;
+}
+
+body{
+    background-color:  #DDCC55;
+    color: #000000;
+    font-size: 16px;
+    font-family: Stoke, Lucida Bright, liberation;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link{
+    color: #222222;
+}
+
+a:visited{
+    color: #222222;
+}
+
+ol{
+    line-height: 200%;
+}
+
+ul{
+    line-height: 200%;
+}
+
+.ender{
+    display: block;
+    float: right;
+    text-align: right;
+    line-height: 140%;
+    font-size: 14px;
+    font-family: Karla, Verdana, Ubuntu;
+    padding: 10px;
+}
+
+.imgLogo{
+    border-bottom: solid;
+    border-color: #222222;
+    border-width: 3px;
+    margin-bottom: 6px;
+    padding-bottom: 15px;
+}
+
+.apres{
+    text-align: center;
+    font-size: 16px;
+}
+
+.nav{
+    color: #000000;
+    line-height: 230%;
+    margin-top: 40px;
+    list-style-type: square;
+}

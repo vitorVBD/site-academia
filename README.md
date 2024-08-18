@@ -7,12 +7,14 @@ Projeto feito em parceria com o CEDERJ e Universidade Federal Fluminense, para a
 
 ![Logo](https://www.uff.br/sites/default/files/sites/default/files/imagens-das-noticias/uff_brasao.png)
 
+
 ## 📄 Índice
 
- | Nº |  Documento                |  Descrição                      |
+ | Arquivo |  Documento                |  Descrição                      |
  | :--: | :-----------------------: | :-------------------------------: |
- | 1  | [Página tabelas](https://github.com/vitorVBD/siteAcademia/blob/main/siteAcademiaComTabela.html) | Página inicial do site feita em HTML4 com tabelas, sem CSS
- | 2 | [Página Inicial](https://github.com/vitorVBD/siteAcademia/blob/main/siteAcademia.html) | Página inicial do site em HTML5
+ | siteAcademiaComTabela  | [Página tabelas](https://github.com/vitorVBD/siteAcademia/blob/main/siteAcademiaComTabela.html) | Página inicial do site feita em HTML4 com tabelas, sem CSS
+ | siteAcademia  | [Página Inicial](https://github.com/vitorVBD/siteAcademia/blob/main/siteAcademia.html) | Página inicial do site em HTML5
+ | estilos  | [CSS](https://github.com/vitorVBD/siteAcademia/blob/main/estilos.css) | Folhas de Estilo da página inicial
 
 
 ## 🔧 Ferramentas

@@ -9,6 +9,13 @@ nav {
     width: 205;
     float: left;
     padding: 5px;
+    
+    ul{
+        color: #000000;
+    line-height: 230%;
+    margin-top: 40px;
+    list-style-type: square;
+    }
 }
 
 section {
@@ -67,9 +74,177 @@ ul{
     font-size: 16px;
 }
 
-.nav{
-    color: #000000;
-    line-height: 230%;
-    margin-top: 40px;
+.titulo{
+    text-align: center;
+}
+
+.listaPlano{
+    width: 300px;
+    color: #202020;
+    background-color: #EEEEBB;
+    font-size: 12px;
+    padding: 10px 10px 10px 30px;
+    border: 3px solid;
+    border-color: #202020;
+    margin-top: 0px;
+    margin-bottom: 10px;
     list-style-type: square;
+    margin-left: auto;
+    margin-right: auto;
+
+    ol{
+        color: #202020;
+        list-style-type: lower-alpha;
+    }
+}
+
+h4{
+    font-size: 14px;
+}
+
+.preco{
+    color: #CC0000;
+}
+
+.tabEquip{
+    border: 1px solid;
+    border-collapse: separate;
+    width: 510px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+
+    th{
+        border: 1px solid;
+        padding: 10px;
+    }
+
+    td{
+        border: 1px solid;
+        padding: 10px;
+        font-size: 12px;
+        background-color: #EEEEBB;
+    }
+
+    .imgCel{
+        width: 100px;
+        background-color: #FFFFFF;
+
+        img{
+            width: 100px;
+            height: 100px;
+        }
+    }
+}
+
+.tabTitulo{
+    background-color: #402020;
+    color: #FFFFFF;
+}
+
+.tabSubTit{
+    background-color: #802020;
+    color: #FFFFFF;
+}
+
+.formul{
+    width: 400px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #202020;
+    background-color: #EEEEBB;
+    border: 3px solid;
+    border-color: #202020;
+    font-size: 12px;
+}
+
+.fsPessoal{
+    width: 340px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.fsGenero{
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.fsCartao{
+    width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.linhaNome{
+    height: 30px;
+    width: 340px;
+    padding-top: 8px;
+}
+
+.linhaDados{
+    height: 140px;
+    width: 340px;
+}
+
+.ColDirMat{
+    float: right;
+}
+
+.ColEsqPes{
+    width: 70px;
+    float: left;
+    display: block;
+}
+
+.ColLabCrd{
+    width: 270px;
+    height: 30px;
+    text-align: left;
+    float: left;
+}
+
+.ColValTot{
+    width: 220px;
+    text-align: left;
+    float: left;
+    display: block;
+}
+
+.entDireita{
+    margin-right: 20px;
+    float: right;
+}
+
+.inpNome{
+    width: 220px;
+}
+
+.inpDD{
+    width: 35px;
+}
+
+.inpQD{
+    width: 50px;
+}
+
+.inpNCC{
+    width: 130px;
+}
+
+.inpTelef{
+    width: 90px;
+}
+
+.inpMat{
+    width: 70px;
+}
+
+.inpVal{
+    width: 50px;
 }

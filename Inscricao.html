@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscrição</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <header>
+
+        <img class="imgLogo" src="Imagens/HalteresSeusHabitosTopo.png" alt="Imagem Halteres seus Habitos">
+
+        <address class="ender">
+                Estrada do puxa ferro, 12
+                <br>
+                Tel: (21) 91234-5678
+                <br>
+                <a href="mailto:contato@halterhabit.com.br">contato@halterhabit.com.br</a>
+        </address>
+
+    </header>
+
+    <nav>
+
+        <ul>
+            <li>
+                <a href="HalteresSeusHabitos.html">Apresentação</a>
+            </li>
+
+            <li>
+                <a href="Planos.html">Planos</a>
+            </li>
+
+            <li>
+                <a href="Equipamentos.html">Equipamentos</a>
+            </li>
+
+            <li>
+                <a href="Inscricao.html">Inscrição</a>
+            </li>
+        </ul>
+
+    </nav>
+
+    <section>
+
+        <form class="formul" method="get" action="">
+
+            <fieldset class="fsPessoal">
+
+                <legend>Dados Pessoais</legend>
+
+            <div class="ColEsqPes">
+
+                <label class="linhaNome" for="nome">Nome:
+                <input class="inpNome" type="text" id="nome" name="Nome">
+                </label>
+
+                <br><br>
+            
+                <label class="linhaDados" for="telefone">Telefone:
+                <input class="inpTelef" type="tel" id="telefone" name="Telefone">
+                </label>
+
+                <br><br>
+                
+                <label class="linhaDados" for="celular">Celular:
+                <input class="inpTelef" type="tel" id="celular" name="Celular">
+                </label>
+
+                <br><br>
+
+                <label class="linhaDados" for="idade">Idade:
+                <input class="inpDD" type="number" id="idade" name="Idade" value="18">
+                </label>
+
+            </div>
+
+            <br><br><br><br>
+
+                <fieldset class="fsGenero">
+
+                    <legend>Gênero</legend>
+
+                    <label for="masculino">
+                        <br><input type="radio" id="masculino" name="genero" value="Masculino">Masculino
+                    </label>
+
+                    <label for="feminino">
+                        <br><input type="radio" id="feminino" name="genero" value="feminino">Feminino
+                    </label>
+
+                    <label for="outro">
+                        <br><input type="radio" id="outro" name="genero" value="outro">Outro
+                    </label>
+                </fieldset>
+
+            </fieldset>
+
+            <fieldset class="fsPessoal">
+
+                <legend>Matrícula</legend>
+
+                <label for="matriculado">Matriculado?
+                <input type="checkbox" id="matriculado" name="matriculado" value="sim">
+                </label>
+
+                <div class="ColDirMat">
+                    <label for="Plano">Plano:
+                        <select name="Plano">Plano:
+                            <option value="Anual">Anual</option>
+                            <option value="Semestral">Semestral</option>
+                            <option value="Mensal">Mensal</option>
+                        </select>
+                    </label>
+                </div>
+
+                <br><br>
+
+                <label for="Atividade">Atividade:
+                    <select name="Atividade">Atividade:
+                        <option value="Academia">Academia</option>
+                        <option value="Natacao">Natação</option>
+                        <option value="Combo">Combo</option>
+                    </select>
+                </label>
+
+                <div class="ColDirMat">
+                    <label for="numeroMatricula">Numero:
+                        <input class="inpMat" type="text" id="numeroMatricula" name="numeroMatricula">
+                    </label>
+                </div>
+
+                <fieldset class="fsCartao">
+
+                    <legend>Cartão</legend>
+
+                <div class="ColLabCrd">
+                    <label for="Bandeira">
+                        <label for="Visa">
+                            <input type="radio" id="Visa" name="Bandeira" value="Vias">Visa
+                        </label>
+
+                        <label for="Master">
+                            <input type="radio" id="Master" name="Bandeira" value="Master">Master
+                        </label>
+
+                        <label for="Elo">
+                            <input type="radio" id="Elo" name="Bandeira" value="Elo">Elo
+                        </label>
+                    </label>
+                </div>
+
+                    <label for="Validade">Validade:
+                        <input class="inpDD" type="number" id="Validade" name="validadeMes" value="10"> /
+                        <input class="inpQD" type="number" id="Validade" name="validadeAno" value="2024">
+                    </label>
+
+                    <br><br>
+
+                    <label class="inpNCC" for="numeroCartao">Número:
+                        <input type="text" id="numeroCartao" name="numeroCartao">
+                    </label>
+                </fieldset>
+                
+                <br>
+
+            <div class="ColValTot">
+                <label for="matricula+plano">
+                    <input type="button" id="matricula+plano" name="matricula+plano" value="Matrícula + Plano">
+                </label>
+            </div>
+
+            <div class="ColDirMat">
+                <label for="valor">Valor: R$
+                    <input class="inpVal" type="text" id="matricula+plano" name="valorTotal">
+                </label>
+            </div>
+
+            </fieldset>
+
+            <br>
+
+        <div class="entDireita ">
+            <input type="submit">
+            <input type="reset" value="Limpar">
+        </div>
+
+        <br>
+        </form>
+    </section>
+
+</body>
+</html>

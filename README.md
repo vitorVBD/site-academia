@@ -13,7 +13,10 @@ Projeto feito em parceria com o CEDERJ e Universidade Federal Fluminense, para a
  | Arquivo |  Documento                |  Descrição                      |
  | :--: | :-----------------------: | :-------------------------------: |
  | siteAcademiaComTabela  | [Página tabelas](https://github.com/vitorVBD/siteAcademia/blob/main/siteAcademiaComTabela.html) | Página inicial do site feita em HTML4 com tabelas, sem CSS
- | siteAcademia  | [Página Inicial](https://github.com/vitorVBD/siteAcademia/blob/main/siteAcademia.html) | Página inicial do site em HTML5
+ | HalteresSeusHabitos  | [Página Inicial](https://github.com/vitorVBD/siteAcademia/blob/main/HalteresSeusHabitos.html) | Página inicial do site em HTML5
+ | Planos | [Página Planos](https://github.com/vitorVBD/siteAcademia/blob/main/Planos.html) | Página com os planos da Academia
+ | Equipamentos | [Página Equipamentos](https://github.com/vitorVBD/siteAcademia/blob/main/Equipamentos.html) | Página com alguns equipamentos e explicações
+ | Inscricao | [Página Inscrição](https://github.com/vitorVBD/siteAcademia/blob/main/Inscricao.html) | Página para inscrição na academia
  | estilos  | [CSS](https://github.com/vitorVBD/siteAcademia/blob/main/estilos.css) | Folhas de Estilo da página inicial
 
 

@@ -8,14 +8,7 @@ nav {
     display: block;
     width: 20%;
     float: left;
-    padding: 5px;
-    
-    ul{
-        color: #000000;
-    line-height: 230%;
-    margin-top: 40px;
-    list-style-type: square;
-    }
+    padding: 5px; 
 }
 
 section {
@@ -74,6 +67,13 @@ ul{
     font-size: 16px;
 }
 
+nav ul{
+    color: #000000;
+line-height: 230%;
+margin-top: 40px;
+list-style-type: square;
+}
+
 .titulo{
     text-align: center;
 }
@@ -91,11 +91,11 @@ ul{
     list-style-type: square;
     margin-left: auto;
     margin-right: auto;
+}
 
-    ol{
-        color: #202020;
-        list-style-type: lower-alpha;
-    }
+.listaPlano ol{
+    color: #202020;
+    list-style-type: lower-alpha;
 }
 
 h4{
@@ -114,28 +114,28 @@ h4{
     font-size: 14px;
     margin-left: auto;
     margin-right: auto;
+}
 
-    th{
-        border: 1px solid;
-        padding: 10px;
-    }
+.tabEquip th{
+    border: 1px solid;
+    padding: 10px;
+}
 
-    td{
-        border: 1px solid;
-        padding: 10px;
-        font-size: 12px;
-        background-color: #EEEEBB;
-    }
+.tabEquip td{
+    border: 1px solid;
+    padding: 10px;
+    font-size: 12px;
+    background-color: #EEEEBB;
+}
 
-    .imgCel{
-        width: 100px;
-        background-color: #FFFFFF;
+.tabEquip .imgCel{
+    width: 100px;
+    background-color: #FFFFFF;
+}
 
-        img{
-            width: 100px;
-            height: 100px;
-        }
-    }
+.imgCel img{
+    width: 100px;
+    height: 100px;
 }
 
 .tabTitulo{
